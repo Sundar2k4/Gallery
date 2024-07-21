@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+IT+Moderna:wght@100..400&display=swap");
+.image
+{
+    padding:0px;
+    margin: 0px;
+    height:100px;
+    cursor: pointer;
+}
+*
+{
+    box-sizing: border-box;
+    margin:0px;
+    padding:0px;
+    color: black;
+}
+li,a{
+    font-family:"Playwrite IT Moderna";
+    font-weight: 30px;
+}
+header{
+    display: flex;
+    background-color: rgb(0,0,0,0);
+    justify-content: space-between;
+    align-content: center;
+    padding:30px 5%;
+}
+.nav-l
+{
+    list-style:none;
+}
+.nav-l li{
+    display: inline-block;
+    padding-left: 30px;
+}
+.nav-l li a{
+    transition: all 0.3s ease 0s;
+}
+.nav-l li a:hover{
+    color:orange;
+}
+body{
+    background-image: url("lol.jpeg");
+    background-repeat: none;
+    background-size: cover;
+}
+.boop
+{
+    height:500px;
+    width:100vh;
+    border-radius: 30px;
+    display:flex;
+    position: absolute;
+}
+.time
+{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   height:60vh;
+   position:relative;
+   overflow: hidden;
+   top: 100%;
+   padding: 200px 0;
+   margin-bottom: 20px;
+}
+.video
+{
+    position:absolute;
+    min-width: 100%;
+    min-height:100%;
+    z-index:-1;
+    
+}
+.hell
+{
+    color:aquamarine;
+    font-family: 'Playwrite IT Moderna';
+    font-weight: 900;
+    font-size: 50px;
+}
+.boop2
+{
+    height:500px;
+    display:flex;
+    margin-left: 105vh;
+    border-radius:30px;
+}
+.box
+{
+    position:relative;
+    height:70vh;
+}
+.vid2
+{
+   height:80vh;
+   margin-left: 163vh;
+   display:flex;
+   position:relative;
+   top:-70vh;
+   height:500px;
+   border-radius: 30px;
+}
+.wrapper .image-list
+{
+    display:grid;
+    grid-template-columns:repeat(10,1fr);
+    gap:18px;
+    margin-bottom: 30px;
+    overflow-x:auto;
+    scrollbar-width: none;
+}
+.wrapper .image-list::-webkit-scrollbar
+{
+    display:none;
+}
+.slider-wrapper .image-list .image-item
+{
+    width:325px;
+    height:400px;
+    object-fit: cover;
+    
+}
+.container1
+{
+    margin-top:150px;
+    max-width: 1200px;
+    width:95%;
+}
+ .container1 .slider-scrollbar{
+     height: 25px;
+     width:100%;
+     display: flex;
+     align-items: center;
+}
+.slider-scrollbar .scrollbar-track
+{
+    height:2px;
+    width:100%;
+    background:white;
+    position:relative;
+    border-radius: 4px;
+}
+.slider-scrollbar:hover .scrollbar-track
+{
+   height:4px;
+}
+.slider-scrollbar .scrollbar-thumb
+{
+    position:absolute;
+    height:2px;
+    width:50%;
+    background:BLACK;
+    border-radius: inherit;
+    cursor: grab;
+}
+
+.slider-scrollbar .scrollbar-thumb:active
+{
+   cursor:grabbing;
+   height:8px;
+   top:-2px;
+}
+.slider-scrollbar .scrollbar-thumb::after{
+    content:"";
+    position:absolute;
+    left:0;
+    right:0;
+    top:-10px;
+    bottom:-10px;
+}
