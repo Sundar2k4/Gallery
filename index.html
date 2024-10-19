@@ -1,54 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sundar</title>
-    <link rel="stylesheet" href="dat.css" />
-    <script src="port.js"></script>
-  </head>
-  <body>
-    <header class="head">
-      <img src="img1.png" height="50px" class="image" />
-      <nav>
-        <ul class="nav-l">
-          <li class="nav-l"><a href="#">Home</a></li>
-          <li class="nav-l"><a href="#">About</a></li>
-          <li class="nav-l"><a href="#">Buy</a></li>
-        </ul>
-      </nav>
-    </header>
-    <div class="time">
-      <h1 class="hell">Gallery Where Art Is Born</h1>
-      <video class="video" autoplay muted loop>
-        <source src="vid1.mp4" type="video/mp4" />
-      </video>
-    </div>
-    <!--<div class="container">-->
-    <div class="box">
-      <img name="slide" class="boop" />
-      <img name="slide2" class="boop2" />
-      <video class="vid2" autoplay muted loop>
-        <source src="vid0.mp4" type="video/mp4" />
-      </video>
-    </div>
 
-    <div class="container1">
-      <div class="wrapper">
-        <div class="image-list">
-          <img src="new1.jpg" alt="image" class="image-item" height="600px" />
-          <img src="new2.jpg" alt="image" class="image-item" height="600px" />
-          <img src="new3.jpg" alt="image" class="image-item" height="600px" />
-          <img src="new4.jpg" alt="image" class="image-item" height="600px" />
-          <img src="new5.jpg" alt="image" class="image-item" height="600px" />
-          <img src="new6.jpg" alt="image" class="image-item" height="600px" />
-        </div>
-      </div>
-      <div class="slider-scrollbar">
-        <div class="scrollbar-track">
-          <div class="scrollbar-thumb"></div>
-        </div>
-      </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Photoshoot Gallery</title>
+  <link rel="stylesheet" href="dat.css" />
+  <script src="port.js" defer></script> <!-- Ensure JS loads after HTML -->
+</head>
+
+<body>
+  <header class="head">
+    <img src="img1.png" height="50px" class="image" alt="Logo" />
+    <nav>
+      <ul class="nav-l">
+        <li class="nav-l"><a href="#">Home</a></li>
+        <li class="nav-l"><a href="#">About</a></li>
+        <li class="nav-l"><a href="#">Buy</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="time">
+    <h1 class="hell">Gallery Where Art Is Born</h1>
+    <video class="video" autoplay muted loop>
+      <source src="vid1.mp4" type="video/mp4" />
+    </video>
+  </div>
+
+  <div class="box">
+    <img name="slide" class="boop" />
+    <img name="slide2" class="boop2" />
+    <video class="vid2" autoplay muted loop>
+      <source src="vid0.mp4" type="video/mp4" />
+    </video>
+  </div>
+
+  <div class="gallery" id="gallery">
+    <h2 class="section-title">Our Featured Collection</h2>
+    <div class="image-grid">
+      <img src="new1.jpg" alt="image" class="art-item" />
+      <img src="new2.jpg" alt="image" class="art-item" />
+      <img src="new3.jpg" alt="image" class="art-item" />
     </div>
-  </body>
+    <div class="additional-images">
+      <img src="new4.jpg" alt="image" class="art-item" />
+      <img src="new5.jpg" alt="image" class="art-item" />
+      <img src="new6.jpg" alt="image" class="art-item" />
+      <img src="new7.jpg" alt="image" class="art-item" />
+      <img src="new8.jpg" alt="image" class="art-item" />
+      <img src="new9.jpg" alt="image" class="art-item" />
+      <img src="new10.jpg" alt="image" class="art-item" />
+      <img src="new11.jpg" alt="image" class="art-item" />
+      <img src="new12.jpg" alt="image" class="art-item" />
+      <img src="new13.jpg" alt="image" class="art-item" />
+    </div>
+  </div>
+</body>
+
 </html>
