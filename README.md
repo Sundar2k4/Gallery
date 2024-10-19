@@ -18,6 +18,10 @@ The Photoshoot Gallery is a visually appealing web application that showcases a 
 - **JavaScript**: ⚙️ Functionality for the image slideshow and dynamic content loading.
 - **Google Fonts**: 🖋️ Custom typography for enhanced visual appeal.
 
+## Live Demo
+
+🌐 Check out the live demo of the Photoshoot Gallery [here](https://galleryxphotoze.netlify.app/).
+
 ## Installation
 
 To set up the Photoshoot Gallery locally, follow these steps:
@@ -26,6 +30,7 @@ To set up the Photoshoot Gallery locally, follow these steps:
 
    ```bash
    git clone https://github.com/yourusername/photoshoot-gallery.git
+
    ```
 
 2. **Navigate to project directory**:
